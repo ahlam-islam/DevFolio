@@ -1,0 +1,446 @@
+.arrow-up
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.arrow-up i
+{
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: #0078ff;
+    padding: 1.5rem;
+    
+}
+.my-nav
+{
+    z-index: 5555;
+}
+#home
+{
+    background-image: url('../img/intro-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+header .logo
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+header .under-line
+{
+    width: 2.5rem;
+    height: 0.16rem;
+    background-color: #fff;
+    margin-left: 0.5rem;
+    opacity: 0;
+    transition: 1s;
+}
+header .under-line:hover
+{
+    opacity: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #fff;
+}
+.layer
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header h1
+{
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 4.5rem;
+    
+}
+header h3
+{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+/*-------------------------------------------------------*/
+/*-----------------------about----------------------------*/
+#about
+{
+    background-color: #f5f5f5;
+}
+
+#about .bg-color
+{
+    background-color: #cde1f8;
+}
+.under-lines
+{
+    width: 6rem;
+    height: 0.2rem;
+    background-color: #007bff;
+    margin-bottom: 2rem;
+}
+.about-me p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #4e4e4e;
+}
+#about .box-shadow
+{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/*-------------------------------------------------------*/
+/*-----------------------Services----------------------------*/
+
+#services
+{
+    background-color: #f5f5f5;
+}
+#services .under-lin
+{
+    width: 2.9rem;
+    margin: auto;
+    height: 0.4rem;
+    background-color: #007bff;
+    margin-bottom: 2rem;
+}
+.head h3
+{
+    color: #1e1e1e;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.three
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.three i
+{
+    font-size: 3.4rem;
+}
+.three i:hover
+{
+    color: white;
+}
+.three .border-cical
+{
+    padding: 2.2rem 1rem 0.5rem;
+    width: 8rem;
+    height: 8.6rem;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    transition: 1s;
+
+}
+.three .border-cical:hover
+{
+    background-color: #0078ff;
+    border: 10px solid #ddeafa;
+}
+.three h2
+{
+    font-size: 1.4rem;
+    color:#1e1e1e;
+    padding: 5px;
+}
+
+/*-------------------------------------------------------*/
+
+.workes
+{
+    background-image: url('../img/counters-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.workes .cover
+{
+    
+    background-color: rgba(0, 120, 255,0.6);
+}
+
+.four i
+{
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 1.4rem;
+
+}
+
+.four .cical
+{
+    
+    width: 6rem;
+    height: 6rem;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 50%;
+    border: 13px solid  #cde1f8;
+    
+}
+.four p
+{
+  color: #fff;
+  font-size: 2rem;
+
+}
+
+.four span
+{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*-------------------------------------------------------*/
+/*-----------------------Portfolio----------------------------*/
+
+#Portfolio
+{
+    background-color: #f5f5f5;
+}
+
+.card
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: none !important;
+    position: relative;
+}
+.card .card-icon
+{
+    position: absolute;
+    border: 2px solid#0078ff;
+    ;
+    bottom: 1rem;
+    right: 1.3rem;
+}
+.card img
+{
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card img:hover
+{
+    transform: scale(1.2 ,1.2);
+}
+
+
+.card-body p
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: #1e1e1e;
+}
+.card-body span
+{
+    font-size: 0.8rem;
+}
+
+/*-------------------------------------------------------*/
+/*-----------------------slider----------------------------*/
+.slider
+{
+    background-image: url('../img/overlay-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cover-slider
+{
+    background-color: rgba(0, 120, 255,0.6);
+}
+.name h4
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.name p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.5;
+}
+
+
+.name i
+{
+    font-size: 1.7rem;
+    color: #0078ff;
+}
+.control
+{
+    margin-top: 10rem ;
+}
+
+
+.carousel-indicators li
+{
+    margin-bottom: -5rem;
+    width: 1.3rem;
+    height: 0.6rem;
+}
+
+/*-------------------------------------------------------*/
+/*-----------------------blog----------------------------*/
+
+.blog
+{
+    background-color: #f5f5f5;
+}
+.card-2 a
+{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: 0.5s;
+}
+
+
+.card-2 a:hover
+{
+    color: #0078ff;
+}
+
+.card-2 span
+{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #4e4e4e;
+    line-height: 1.5;
+}
+.card-2
+{
+    position: relative;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid #d9d9d9;
+}
+
+.card-2 .botton
+{
+    position: absolute;
+    top: 43%;
+    left: 40%;
+}
+
+
+#contant
+{
+    background-image: url('../img/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.cover-2
+{
+    background-color: rgba(0, 120, 255,0.6);
+    
+  
+
+}
+
+
+.shadow
+{
+  box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.under
+{
+    background-color: #f7f7f7;
+    border-top: 1px solid #d9d9d9;
+}
+
+.under .cont1 img
+{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.under .cont1 a , .cont2
+{
+    color: #1e1e1e;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.under .cont1 a:hover
+{
+    color: #0078ff;
+}
+
+
+.send p
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+   color: #4e4e4e;
+   line-height: 1.5;
+
+}
+.send ul
+{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.send ul li i
+{
+    color: #0078ff;
+    margin-right: 0.6rem;
+   
+}
+
+.send ul li 
+{
+    color: #4e4e4e;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.icones i
+{
+    border: 3px solid #0078ff;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    background-color: #fff;
+}
+.icones i:hover
+{
+    color: white;
+    background-color: #0078ff;
+    border: 3px solid #ddeafa;
+}
+
